@@ -12,6 +12,10 @@ const routes = [
     component: Home,
   },
   {
+    path:'/',
+    redirect:"/signin"
+  },
+  {
     path: '/callback',
     name: 'callback',
     component: Callback,
