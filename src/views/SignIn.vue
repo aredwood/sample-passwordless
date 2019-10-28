@@ -10,7 +10,6 @@
                 <v-spacer></v-spacer>
               </v-toolbar>
               <v-card-text>
-                <v-form>
                   <v-text-field label="Login" name="login" type="text" v-model="email"></v-text-field>
 
                   <v-text-field
@@ -20,7 +19,6 @@
                     type="password"
                     v-if="showPassword"
                   ></v-text-field>
-                </v-form>
                 <span v-if="loginEmailSent">A link has been sent to your email</span>
               </v-card-text>
 

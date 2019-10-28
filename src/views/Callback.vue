@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{JSON.stringify(auth,null,2)}}
+        Loading...
     </div>
 </template>
 <script>
