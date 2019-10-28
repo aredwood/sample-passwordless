@@ -48,7 +48,8 @@ export default {
   data() {
     return {
       actionCodeSettings: {
-        url: "http://localhost:8080/callback",
+        // TODO do NOT use this in prod
+        url: `${window.location.origin}/callback`,
         handleCodeInApp: true
       },
       email: "",
