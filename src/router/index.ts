@@ -1,14 +1,25 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-
+import SignIn from "../views/SignIn.vue"
+import Callback from "../views/Callback.vue"
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'home',
     component: Home,
+  },
+  {
+    path: '/callback',
+    name: 'callback',
+    component: Callback,
+  },
+  {
+    path: '/signin',
+    name: 'signin',
+    component: SignIn,
   },
   {
     path: '/about',
