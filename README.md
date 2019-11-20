@@ -1,29 +1,8 @@
 # sample-passwordless
 
-## Project setup
-```
-yarn install
-```
+This an example of using passwordless authentication with Firebase - it's only a simple example, that prompts you for an email address, and once clicked, will take you to a page that displays details about the user that is now logged in.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### Deployment
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+`firebase deploy`
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
